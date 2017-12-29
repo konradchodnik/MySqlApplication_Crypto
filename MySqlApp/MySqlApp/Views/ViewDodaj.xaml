@@ -1,0 +1,124 @@
+﻿<Window x:Class="MySqlApp.ViewDodaj"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MySqlApp"
+        mc:Ignorable="d"
+        Title="ViewDodaj" Height="700" Width="600" Background="#FF5088FF">
+
+    <Border Margin="20" Background="#2e3137" CornerRadius="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Rectangle Grid.Row="0">
+
+            </Rectangle>
+            <Rectangle Fill="#2e3137"  
+				   Grid.Row="1"/>
+            <Label Content="Witaj, Wypelnij formularz aby wprowadzic nowego użytkownika" Grid.Row="1" HorizontalAlignment="Left" Height="45" Margin="3" Foreground="White" FontSize="18"/>
+
+
+            <Rectangle Fill="#2e3137" 
+				   Grid.Row="2"/>
+            <Label Content="Podaj Imie: " Grid.Row="2" HorizontalAlignment="Left" Height="25" Margin="3" Foreground="White"/>
+            <TextBox Grid.Row="2"
+                 HorizontalAlignment="Right"
+                 Width="150"
+                 Height="25"
+                 Text="{Binding PrzeslaneDan.Imie,
+                                UpdateSourceTrigger=PropertyChanged, 
+                                ValidatesOnDataErrors=True}"
+                  Background="#545d6a" 
+                 Foreground="White"
+                 FontSize="18"
+                 />
+
+            <Rectangle Fill="#2e3137" 
+				   Grid.Row="3"/>
+            <Label Content="Podaj Nazwisko :" Grid.Row="3" HorizontalAlignment="Left" Height="25" Margin="3" Foreground="White"/>
+            <TextBox Grid.Row="3"
+                 HorizontalAlignment="Right"
+                 Width="150"
+                 Height="25"
+                 Text="{Binding PrzeslaneDan.Nazwisko,
+                                UpdateSourceTrigger=PropertyChanged, 
+                                ValidatesOnDataErrors=True}"
+                  Background="#545d6a" 
+                 Foreground="White"
+                 FontSize="18"
+                 />
+            <Rectangle Fill="#2e3137" 
+				   Grid.Row="4"/>
+            <Label Content="Podaj Login :" 
+                   Grid.Row="4" 
+                   HorizontalAlignment="Left" Height="25" Margin="3" Foreground="White"/>
+            <TextBox Grid.Row="4"
+                 HorizontalAlignment="Right"
+                 Width="150"
+                 Height="25"
+                 Text="{Binding PrzeslaneDan.Login,
+                                UpdateSourceTrigger=PropertyChanged, 
+                                ValidatesOnDataErrors=True}"
+                  Background="#545d6a" 
+                 Foreground="White"
+                 FontSize="18"
+                 />
+            <Label Content="Podaj Haslo :" 
+                   Grid.Row="5" 
+                   HorizontalAlignment="Left" Height="25" Margin="3" Foreground="White"/>
+            <TextBox Grid.Row="5"
+                 HorizontalAlignment="Right"
+                 Width="150"
+                 Height="25"
+                 Text="{Binding PrzeslaneDan.Haslo,
+                                UpdateSourceTrigger=PropertyChanged, 
+                                ValidatesOnDataErrors=True}"
+                  Background="#545d6a" 
+                 Foreground="White"
+                 FontSize="18"
+                 />
+
+            <Label Content="Podaj Rola :" 
+                   Grid.Row="6" 
+                   HorizontalAlignment="Left" Height="25" Margin="3" Foreground="White"/>
+            <TextBox Grid.Row="6"
+                 HorizontalAlignment="Right"
+                 Width="150"
+                 Height="25"
+                 Text="{Binding PrzeslaneDan.Rolax,
+                                UpdateSourceTrigger=PropertyChanged, 
+                                ValidatesOnDataErrors=True}"
+                  Background="#545d6a" 
+                 Foreground="White"
+                 FontSize="18"
+                 />
+
+
+
+
+            <Rectangle Fill="#2e3137"
+                   Grid.Row="12"/>
+            <Button Command="{Binding DodajUzytkownika}" 
+                Grid.Row="12" 
+                Content="Dodaj nowego uzytkownika" 
+                Height="45" 
+                Width="250" 
+                HorizontalAlignment="Center"
+                Background="#545d6a" 
+                Foreground="White"
+                FontSize="18"
+                 />
+
+
+        </Grid>
+    </Border>
+</Window>

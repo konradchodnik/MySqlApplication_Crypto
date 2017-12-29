@@ -1,0 +1,98 @@
+﻿<Window x:Class="MySqlApp.Views.LogowanieDoAplikacja"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:MySqlApp.ViewModels"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        xmlns:src="clr-namespace:MySqlApp.Models"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MySqlApp.Views"
+        mc:Ignorable="d"
+       Title="Logowanie" Height="550" Width="500" Background="#FF5088FF">
+    <Window.DataContext>
+        <vm:ViewModelLogowanieCoon/>
+    </Window.DataContext>
+    <Window.Resources>
+        <ObjectDataProvider x:Key="enumValues"
+                            MethodName="GetValues"
+                            ObjectType="{x:Type System:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="src:LogDoServa"></x:Type>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Border Background="#2e3137" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20">
+            <Label Content="Logowanie do Bazy" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+            <Separator></Separator>
+            <Label Content="Witaj w panelu Logowania " Foreground="White" HorizontalAlignment="Center"/>
+            <Label Content="Wybierz Serwer:" Foreground="White"/>
+
+            <TextBox x:Name="TxLogin" 
+                     
+                        Text="{Binding LogowanieDoSerwera.server, 
+						UpdateSourceTrigger=PropertyChanged, 
+						ValidatesOnDataErrors=True, Mode=TwoWay}"    
+                         Background="#545d6a" 
+                         Foreground="White" 
+                         FontSize="18"
+              />
+
+            <Label Content="Nazwa Uzytkownika:" Foreground="White"/>
+            <TextBox x:Name="TxHaslo" 
+                      Text="{Binding LogowanieDoSerwera.user, 
+						UpdateSourceTrigger=PropertyChanged, 
+						ValidatesOnDataErrors=True, Mode=TwoWay}"  
+                     
+                     Background="#545d6a" Foreground="White" FontSize="18"/>
+            <Label Content="Nazwa Bazy Danych: " Foreground="White"/>
+            <TextBox x:Name="TxHaslos" 
+                      Text="{Binding LogowanieDoSerwera.bazadanych, 
+						UpdateSourceTrigger=PropertyChanged, 
+						ValidatesOnDataErrors=True, Mode=TwoWay}"  
+                     
+                     Background="#545d6a" Foreground="White" FontSize="18"/>
+            <Label Content="Haslo: " Foreground="White"/>
+
+            <TextBox x:Name="TxHaslosg" 
+                      Text="{Binding LogowanieDoSerwera.password, 
+						UpdateSourceTrigger=PropertyChanged, 
+						ValidatesOnDataErrors=True, Mode=TwoWay}"  
+                     
+                     Background="#545d6a" Foreground="White" FontSize="18"/>
+
+
+            <Button Background="#FF2B2B2B" 
+				    BorderBrush="Gray"
+                    HorizontalAlignment="Center"
+                    Height="28"
+				    Foreground="Gray"	
+                    Margin="60"
+				    Command="{Binding ZalogujDoAplikacji, 
+				    UpdateSourceTrigger=PropertyChanged}" 
+				    Content="Zaloguj Sie" Width="150" 
+                    >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="IsEnabled" 
+								    Value="True" />
+                        <Style.Triggers>
+                            <MultiDataTrigger>
+                                <MultiDataTrigger.Conditions>
+                                    <Condition Binding="{Binding 
+                                            ElementName=TxLogin}" 
+										    Value="true"/>
+                                    <Condition Binding="{Binding 
+										    ElementName=TxHaslo}" 
+										    Value="true"/>
+                                </MultiDataTrigger.Conditions>
+                                <Setter Property="IsEnabled" Value="true" />
+                            </MultiDataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+        </StackPanel>
+    </Border>
+</Window>

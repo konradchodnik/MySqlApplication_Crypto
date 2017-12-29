@@ -1,0 +1,77 @@
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\App.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp_MarkupCompile.cache
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp_MarkupCompile.lref
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\MySqlApp.exe.config
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\MySqlApp.exe
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\MySqlApp.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\MySql.Data.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp.g.resources
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp.Properties.Resources.resources
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp.csproj.GenerateResource.Cache
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp.exe
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\MySqlApp.pdb
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\LogowanieDoAplikacja.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\LogowanieDoAplikacja.baml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\MainWindow.baml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\NowaRola.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\ViewDodaj.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\NowaRola.baml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\ViewDodaj.baml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\ZmianaHasla.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\ZmianaHasla.baml
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\NoweHaslo.g.cs
+C:\Users\Konrad\documents\visual studio 2015\Projects\MySqlApp\MySqlApp\obj\Debug\Views\NoweHaslo.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\MySqlApp.exe.config
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\MySqlApp.exe
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\MySqlApp.pdb
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\MySql.Data.dll
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\System.Windows.Interactivity.dll
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp.csprojResolveAssemblyReference.cache
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\NoweHaslo.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\MainWindow.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\NowaRola.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\ViewDodaj.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\LogowanieDoAplikacja.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\ZmianaHasla.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\App.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp_MarkupCompile.cache
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp_MarkupCompile.lref
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\NoweHaslo.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\MainWindow.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\NowaRola.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\ViewDodaj.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\LogowanieDoAplikacja.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\Views\ZmianaHasla.baml
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp.g.resources
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp.Properties.Resources.resources
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp.csproj.GenerateResource.Cache
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp.exe
+E:\Projekty_NET_WPF\NotatkiZPracy\MySqlApp\MySqlApp\obj\Debug\MySqlApp.pdb
